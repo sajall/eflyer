@@ -1,0 +1,299 @@
+<html><head><style>
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgb(255,255,255);
+        background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(215,172,42,1) 100%, rgba(74,69,205,1) 100%, rgba(158,22,210,1) 100%);
+    }
+
+    nav{
+        /* height: 100px; */
+        background-color: black;
+        width: 70%;
+        margin: auto;
+    }
+    ol{
+        text-align: center;
+    }
+
+    li{
+        display: inline-block;
+        color: white;
+        width: 132px;
+    line-height: 50px;
+    }
+    #right-triangle{
+    position: absolute;
+    left: -37px;
+    /* background: red; */
+    width: 36px;
+    height: 0px;
+    border-left: 36px solid transparent;
+    border-top: 50px solid black;
+
+    }
+    #left-triangle{
+    position: absolute;
+    right: -37px;
+    /* background: red; */
+    width: 36px;
+    height: 0px;
+    border-right: 36px solid transparent;   
+    border-top: 50px solid black;
+    }
+    #image img{
+        position: absolute;
+        /* top: 0; */
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        height: 500px;
+    }
+    #eflyer{
+        width: fit-content;
+    /* left: 0; */
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 20px;
+}
+#eflyer h1{
+    color: white;
+    font-size: 50px;
+}
+#mid-div{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 180px;
+    width: 70%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+
+}
+#mid-div select{
+    width: 135px;
+    height: 35px;
+    background-color: black;
+    color: whitesmoke;
+  
+    font-size: 18px;
+    
+}
+#mid-div input{
+    width: 430px;
+    height: 35px;
+    position: relative;
+    border: none;
+    text-indent: 20px;
+
+
+} 
+#mid-div img{
+    /* width: 350px; */
+    height: 35px;
+    /* position: relative; */
+
+
+} 
+#input{
+    display: flex;
+    position: relative;
+}
+#search{
+    position: absolute;
+    background-color: #f6602e;
+    height: 35px;
+    right: 0;
+}
+#search img{
+    height: 34px;
+}
+#cart{
+    display: flex;
+    margin-top: 3px;
+}
+#cart img{
+    height: 35px;
+}
+#cart h3{
+    margin-top: 5px;
+}
+/* #bottom-text h1{
+    width: 500px;
+    text-align: center;
+    color: white;
+} */
+
+#bottom-text{
+    width: 550px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    /* top: 0; */
+    bottom: 180px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 19px;
+}
+#bottom-text button{
+height: 35px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#paraghraph{
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 230px;
+    /* color: white; */
+    font-weight: bold;
+    font-size: 20px;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+
+}
+.cardz{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 1px 1px 10px 1px gray;
+    /* bottom: 0; */
+}
+.cardz span{
+    color: #f6602e;
+    font-size: 14px;
+}
+
+
+
+
+
+    
+
+</style>
+
+</head><body><nav>
+
+    <ol style="
+    position: relative;
+">
+       <li id="right-triangle"></li>
+        <li>Best sellers</li>
+        <li>Gift Ideas</li>
+        <li>New releases</li>
+        <li>Today's Deals</li>
+        <li>Customer Service</li>
+        <li id="left-triangle"></li>
+    </ol>
+
+</nav>
+<div id="image">
+   <img src="./girl-removebg-preview.png" alt="">
+</div>
+<div id="eflyer">
+    <h1>Eflyer</h1>
+</div>
+<div id="mid-div">
+    <img src="./threeline.JPG" alt="">
+    <select name="" id="">
+        <option value="">All Catagory</option>
+        <option value="">shopping</option>
+        <option value="">male </option>
+        <option value="">female</option>
+        <option value="">home</option>
+    </select>
+    <div id="input" >
+    <input type="search" name="" id="" placeholder="search this blog">
+    <div id="search"><img src="./icons8-search-50.png" alt=""></div>
+</div>
+   
+        <select name="" id="">
+            <option value="">English</option>
+            <option value="">Urdu</option>
+            <option value="">Russian</option>
+        </select>
+      <div id="cart">
+        <img src="./icons8-add-to-cart-48.png" alt="">
+       <h3> Cart</h3>
+      </div>
+</div>
+<div id="bottom-text">
+         <h1>GET START <br>
+            YOUR FAVOURITE SHOPPING</h1>
+            <button>BUY NOW</button>
+            
+</div>
+<div id="paraghraph">
+    <p>Man & Woman Fashion</p>
+</div>
+<div id="cards">
+      <div class="cardz">
+        <h4>Man T-Shirt</h4>
+        <span>price</span> $ 30
+    
+      </div>
+      <div class="cardz">
+        <h4>Man Shirt</h4>
+        <span>price</span> $ 30
+      </div>
+      <div class="cardz">
+        <h4>Woman Scarf</h4>
+        <span>price</span> $ 30
+      </div>
+</div>
+<!-- 
+
+<style>
+
+    #parent{
+        position: relative;
+        border:1px solid red;
+        width: 400px;
+        height: 400px;
+        margin: auto;
+    }
+    
+    #child{
+        margin-left: 5px;
+        position: relative;
+        left:3px;
+        background-color: orange;
+        width: 100px;
+        height: 100px;
+    }
+
+</style>
+
+
+offsetLeft = margin-left + left
